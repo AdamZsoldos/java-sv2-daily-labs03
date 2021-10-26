@@ -65,7 +65,7 @@ public class GuessTheNumber {
         }
     }
 
-    private static String getOrdinalNumber(int number) {
+    private String getOrdinalNumber(int number) {
         return switch (number) {
             case 1 -> "first";
             case 2 -> "second";
