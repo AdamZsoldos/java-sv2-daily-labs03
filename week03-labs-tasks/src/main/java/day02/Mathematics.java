@@ -3,7 +3,7 @@ package day02;
 public class Mathematics {
 
     public static void main(String[] args) {
-        System.out.println("Prime numbers");
+        System.out.println("Prime numbers up to 500:");
         for (int i = 0; i < 500; i++) {
             if (isPrime(i)) System.out.println(i);
         }
