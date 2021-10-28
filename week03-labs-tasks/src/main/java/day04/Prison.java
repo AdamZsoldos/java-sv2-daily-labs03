@@ -1,15 +1,8 @@
 package day04;
 
-import java.util.Arrays;
-
 public class Prison {
 
-    private final boolean[] cells;
-
-    public Prison() {
-        cells = new boolean[100];
-        Arrays.fill(cells, false);
-    }
+    private final boolean[] cells = new boolean[100];
 
     public void toggleCellLocks(int everyNthCell) {
         for (int i = everyNthCell - 1; i < cells.length; i += everyNthCell) {
