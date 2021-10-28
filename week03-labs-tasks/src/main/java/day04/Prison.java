@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Prison {
 
-    private boolean[] cells;
+    private final boolean[] cells;
 
     public Prison() {
         cells = new boolean[100];
